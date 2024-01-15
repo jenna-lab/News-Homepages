@@ -1,107 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-  <link rel="stylesheet" href="styles.css" type="text/css" />
-  <title>Frontend Mentor | News homepage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>News homepage</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header>
-    <div class="__imageCont">
-      <img src="./assets/images/logo.svg" alt="logo" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">New</a></li>
-        <li><a href="#">Popular</a></li>
-        <li><a href="#">Trending</a></li>
-        <li><a href="#">Categories</a></li>
-      </ul>
-    </nav>
-    <!-- nav icon section -->
-    <img id="open-menu" src="./assets/images/icon-menu.svg" alt="icon menu open" />
-    <img id="close-menu" src="./assets/images/icon-menu-close.svg" alt="icon menu close" />
-  </header>
 
-  <main>
-    <section>
-     
-      <div class="imagebg"></div>
-    </section>
-    <article>
-      <h1>The Bright Future of Web 3.0?</h1>
-    </article>
-    <article>
-      <p>
-        We dive into the next evolution of the web that claims to put the
-        power of the platforms back into the hands of the people. But is it
-        really fulfilling its promise?
-      </p>
-      <button>Read More</button>
-    </article>
-    <aside>
-      <h2>New</h2>
+    <div class="container">
+        <div class="nav">
+            <img src="assets/images/logo.svg" alt="logo">
+            <div class="navbar">
+                <ul>
+                    <li> Home</li>
+                    <li>New</li>
+                    <li>Popular</li>
+                    <li>Trending</li>
+                    <li>Categories</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="row-one">
+                <div class="row1">
+                    <img src="assets/images/image-web-3-desktop.jpg" alt="" width="700px">
+                    <div class="bright">
+                        <h2>The Bright Future of Web 3.0?</h2>
+                        <div class="dive">
+                            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                                But is it really fulfilling its promise?</p>
+                            <button>READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h4>New </h4>
+                    <div class="news">
+                        <h5>Hydrogen VS Electric Cars</h5>
+                        <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+                    </div>
+                    <div class="news">
+                        <h5>The Downsides of AI Artistry</h5>
+                        <p> What are the possible adverse effects of on-demand AI image generation?</p>
+                    </div>
+                    <div class="news" style="border-bottom: none;">
+                        <h5> Is VC Funding Drying Up?</h5>
+                        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                    </div>
+                </div>
+            </div>
 
-      <div class="__box_content">
-        <h4>Hydrogen VS Electric Cars</h4>
-        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-        <div class="border"></div>
-      </div>
-
-      <div class="__box_content">
-        <h4>The Downsides of AI Artistry</h4>
-        <p>
-          What are the possible adverse effects of on-demand AI image
-          generation?
-        </p>
-        <div class="border"></div>
-      </div>
-
-      <div class="__box_content">
-        <h4>Is VC Funding Drying Up?</h4>
-        <p>
-          Private funding by VC firms is down 50% YOY. We take a look at what
-          that means.
-        </p>
-      </div>
-    </aside>
-  </main>
-
-  <section>
-    <div class="__box">
-      <img src="./assets/images/image-retro-pcs.jpg" alt="reviving retro pc's" />
-      <div class="content__img">
-        <h2>01</h2>
-        <h4>Reviving Retro PCs</h4>
-        <p>What happens when old PCs are given modern upgrades?</p>
-      </div>
-    </div>
-
-    <div class="__box">
-      <img src="./assets/images/image-top-laptops.jpg" alt="top laptops" />
-      <div class="content__img">
-        <h2>02</h2>
-        <h4>Top 10 Laptops of 2022</h4>
-        <p>Our best picks for various needs and budgets.</p>
-      </div>
-    </div>
-
-    <div class="__box">
-      <img src="./assets/images/image-gaming-growth.jpg" alt="gaming growth" />
-      <div class="content__img">
-        <h2>03</h2>
-        <h4>The Growth of Gaming</h4>
-        <p>How the pandemic has sparked fresh opportunities.</p>
-      </div>
-    </div>
-  </section>
-
+            <div class="row-two">
+                <div class="footer">
+                    <img src="assets/images/image-retro-pcs.jpg" alt="" width="100" height="117">
+                    <div class="three">
+                        <h4>01</h4>
+                        <h3>Reviving Retro PCs</h3>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <img src="assets/images/image-top-laptops.jpg" alt="" width="100" height="117">
+                    <div class="three">
+                        <h4>02</h4>
+                        <h3>Top 10 Laptops of 2022</h3>
+                        <p>Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <img src="assets/images/image-gaming-growth.jpg" alt="" width="100" height="117">
+                    <div class="three">
+                        <h4>03</h4>
+                        <h3>The Growth of Gaming</h3>
+                        <p>How the pandemic has sparked fresh opportunities.?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
 </body>
-
 </html>
